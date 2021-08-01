@@ -1,0 +1,85 @@
+[ModMeta]
+schema=1
+name=Example tracks mod
+author=Weird and Wry
+desc=Example tracks mod
+version=1.0.0
+
+; ---------------
+; waw_example_track_1
+
+[TrackKind]
+schema=1
+id=waw_example_track_1
+name_loc=waw_example_track_1_name
+name_en=Example tracks mod
+
+; ----------
+[TrackLayer]
+schema=1
+track_kind_id=waw_example_track_1
+layer=ground
+max_speed=110
+price=180000
+
+[TrackMode]
+schema=1
+track_kind_id=waw_example_track_1
+layer=ground
+mode=built
+base=textures/base.png
+sleepers=@stock/common/sleepers2.png
+
+[TrackMode]
+schema=1
+track_kind_id=waw_example_track_1
+layer=ground
+mode=built_branch
+base=textures/base.png
+sleepers=@stock/common/sleepers2.png
+
+
+; ----------
+[TrackLayer]
+schema=1
+track_kind_id=waw_example_track_1
+layer=viaduct
+max_speed=110
+price=1500000
+
+[TrackMode]
+schema=1
+track_kind_id=waw_example_track_1
+layer=viaduct
+mode=built
+sleepers=@stock/common/sleepers2.png
+
+[TrackMode]
+schema=1
+track_kind_id=waw_example_track_1
+layer=viaduct
+mode=built_branch
+sleepers=@stock/common/sleepers2.png
+
+
+; ----------
+[TrackLayer]
+schema=1
+track_kind_id=waw_example_track_1
+layer=tunnel
+max_speed=110
+price=1800000
+
+[TrackMode]
+schema=1
+track_kind_id=waw_example_track_1
+layer=tunnel
+mode=built
+sleepers=@stock/common/sleepers2.png
+
+[TrackMode]
+schema=1
+track_kind_id=waw_example_track_1
+layer=tunnel
+mode=built_branch
+sleepers=@stock/common/sleepers2.png
